@@ -20,6 +20,9 @@
                 </ul>
             </div>
             <h1 class="mt-3">Log In</h1>
+            <% if (error) { %>
+                <div class="alert alert-danger"><%=error%></div>
+            <% } %>
             <form method="post" action="/login">
                 <div class="form-group">
                     <label for="email-input">Email address</label>

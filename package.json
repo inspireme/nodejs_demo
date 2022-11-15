@@ -1,16 +1,17 @@
 {
-  "name": "nodeje_demo2",
+  "name": "nodeje_demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "nodejs demo",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "zl",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.1",
     "ejs": "^3.1.8",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.2"
   }
 }
